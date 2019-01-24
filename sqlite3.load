@@ -1,0 +1,6 @@
+load database
+     from sqlite://some-database-on-host.db
+     into postgresql://postgres:{{PGPASSWORD}}@localhost:5432/some-database
+
+ with include drop, create tables, create indexes, reset sequences
+ CAST type num to numeric;
